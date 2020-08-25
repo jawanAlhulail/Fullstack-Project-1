@@ -1,4 +1,9 @@
-/*----------------------١-----------------------*/
+
+@font-face {
+    font-family: AvenirNext;
+    src: url('../fonts/AvenirNext-Bold.woff') format('woff'); 
+    font-weight: normal;
+  }/*----------------------١-----------------------*/
 /*                 CSS Reset                    */
 /*
 يجب عليك وضع محتويات الـ 
