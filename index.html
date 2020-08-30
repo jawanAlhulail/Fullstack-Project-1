@@ -51,14 +51,14 @@
                         <h1>Find and Adopt<br> a pet Near You</h1>
                         <p>There are so many loving adoptable pets <br> right in your community waiting for a <br>family to call
                             their own. </p>
-                        <a href="#" class="button is-primary">Find a pet</a>
+                        <a href="#meetYourMatch" class="button is-primary">Find a pet</a>
                     </div>
                     <div class="hero__image">
                         <img src="images/hero-image.png" alt="Hero Image" />
                     </div>
                 </div>
             </section>
-            <section class="meetYourMatch">
+            <section class="meetYourMatch" id="meetYourMatch">
                 <div class="container">
                     <div class="meetYourMatch__background" width="500">
                     <!--ربما ستحتاج هذا العنصر الخالي لعمل نمط الخلفية-->
@@ -77,12 +77,21 @@
                                 </label>
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Entre  your city"/>
+                                <input type="text" placeholder="Entre  your city" id="area"/>
                                
-                                <button class="button is-primary" type="submit">search</button>
+                                <button class="button is-primary" type="submit" onclick="search()">search</button>
+                                <div class="result-con">
+                                <ul id="li-result" onclick="story()">
+                                    
+                                </ul>
+                               
+                                <ul id="story-result">
+                                    
+                                </ul>
+                            </div>
                             </div>
                         </form>
-                    </div>
+                          </div>
                         <div class="widgets is-searchResults">
                             <div class="widget">
                                 <div class="widget__image">
@@ -253,6 +262,7 @@
             </div>
         </footer>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>

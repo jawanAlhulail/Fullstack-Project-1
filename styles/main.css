@@ -192,6 +192,36 @@ border:0px;
 color: white;
 border-radius: 40px;
 }
+.form-group.is-active #result{
+display: block;
+position: absolute;
+top: 4rem;
+width: 300px;
+background: rgb(216, 229, 231);
+padding: 1rem;
+z-index: 1;
+}
+#li-result li{
+padding-right: 70px;
+background-color: rgb(247, 247, 247);
+border-radius: 10px;
+}
+#story-result  li{
+    padding: 0;
+    
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    }
+    #story-result img{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+    }
+.result-con{
+display: flex;
+background-color: rgb(206, 230, 253);
+border-radius: 20px;
+}
 .meetYourMatch .widgets{
 display: flex;
 margin-top: 70px;
@@ -211,7 +241,7 @@ font-size: 20px;
 /*               HOW IT WORKS                   */
 /*----------------------------------------------*/
 .howItWorks .container{
-margin-top: 350px;
+margin-top: 650px;
 }
 .howItWorks .container h2{
 margin-bottom: 90px;
@@ -457,13 +487,29 @@ display: none;
 .burger div{
 width: 35px;
 height: 5px;
-background-color: black;
+background-color: rgb(2, 2, 2);
 margin: 6px 0;
 border: none;
 }
 .burger{
 margin-left: 170px;
 background-color: white;
+}
+header.is-active .main-nav {
+display: block;
+position: absolute;
+top: 4rem;
+width: 300px;
+background: rgb(216, 229, 231);
+padding: 1rem;
+z-index: 1;
+}
+header.is-active ul{
+display: block;
+padding: 10px;
+}
+header.is-active li{
+padding-top: 10px;
 }
 /* hero */
 .hero  .container{
