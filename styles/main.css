@@ -178,6 +178,7 @@ font-size: 20px;
 background-image: url(../images/map-pin.png);
 background-repeat: no-repeat;
 background-position-y: 25px;
+outline: 0;
 }
 .form-group > button{
 font-size: 20px;
@@ -191,6 +192,7 @@ box-shadow: none;
 border:0px;
 color: white;
 border-radius: 40px;
+outline: 0;
 }
 .form-group.is-active #result{
 display: block;
@@ -200,27 +202,6 @@ width: 300px;
 background: rgb(216, 229, 231);
 padding: 1rem;
 z-index: 1;
-}
-#li-result li{
-padding-right: 70px;
-background-color: rgb(247, 247, 247);
-border-radius: 10px;
-}
-#story-result  li{
-    padding: 0;
-    
-    background-color: rgb(247, 247, 247);
-    border-radius: 10px;
-    }
-    #story-result img{
-        width: 100px;
-        height: 50px;
-        border-radius: 20px;
-    }
-.result-con{
-display: flex;
-background-color: rgb(206, 230, 253);
-border-radius: 20px;
 }
 .meetYourMatch .widgets{
 display: flex;
@@ -237,11 +218,12 @@ margin-bottom: 80px;
 .meetYourMatch .widget__desc h4{
 font-size: 20px;
 }
+
 /*----------------------٨-----------------------*/
 /*               HOW IT WORKS                   */
 /*----------------------------------------------*/
 .howItWorks .container{
-margin-top: 650px;
+margin-top: 450px;
 }
 .howItWorks .container h2{
 margin-bottom: 90px;
@@ -270,7 +252,9 @@ font-size: 17px;
 /*----------------------------------------------*/
 .stories .widgets{
 display: flex;
-padding-left: 50px;
+width: 90%;
+margin: 0 auto;
+justify-content: center;
 }
 .stories .container{
 margin-top: 230px;
@@ -294,6 +278,14 @@ color: blue;
 }
 .stories .widget__desc h3{
 font-size: 25px;
+}
+.active:after{
+content: "show less";
+}
+.desc{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
 }
 /*----------------------١٠----------------------*/
 /*       Actions: Change A Life, Adopt A Pet    */

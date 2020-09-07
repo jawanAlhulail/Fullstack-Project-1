@@ -1,52 +1,156 @@
 {
-"array": [
-{"species": "cat. female. 2 years old. name: lila. salwa    :Read more->"},
-{"species": "dog.  female.  3 years old. name: moka.  salwa :Read more->" },
-{"species": "parrot. male. 8 months old. name: moza. salwa: Read more->"}
-],
-"array2": [
-{"species2": "dog. male. 18 months old. name: saya. mishref :Read more->"},
-{"species2": "cat. female. 2 years old. name: hemo. mishref :Read more->"},
-{"species2": "rabbit. female. 9 months old. name: neno. mishref: Read more->"}
-],
-"array3": [
-{"species3": "dog. female. 6 years old. name: salele. bayan :Read more->"},
-{"species3": "dog. male. 4 years old. name: max. bayan :Read more->"},
-{"species3": "parrot. female. 1 year old. name: kasko. bayan :Read more->"}
-],
+   "array1":[
+        {
+            "name":"lila",
+            "age":2,
+            "gender":"female",
+            "location":"salwa",
+            "image" : "/images/pet-02.png" 
+        },
+         {
+            "name":"max",
+            "age":2,
+            "gender":"male",
+            "location":"salwa",
+            "image" : "/images/pet-01.png"
+        },
+         {
+            "name":"neno",
+            "age":2,
+            "gender":"female",
+            "location":"salwa",
+            "image" : "/images/pet-02.png"
+        },
+        {
+            "name":"saya",
+            "age":2,
+            "gender":"female",
+            "location":"salwa",
+            "image" : "/images/pet-02.png"
+        }
+    ],
+   
+    "array2":[
+        {
+            "name":"pavarroti",
+            "age":7,
+            "gender":"male",
+            "location":"mishref",
+            "image" : "/images/pet-04.png"
+        },
+        {
+            "name":"koki",
+            "age":3,
+            "gender":"male",
+            "location":"mishref",
+            "image" : "/images/pet-03.png"
+        },
+        {
+            "name":"snowy",
+            "age":2,
+            "gender":"female",
+            "location":"mishref",
+            "image" : "/images/pet-02.png"
+        },
+        {
+            "name":"moza",
+            "age":10,
+            "gender":"female",
+            "location":"mishref",
+            "image" : "/images/pet-02.png"
+        }
+    ],
+    "array3":[
+        {
+            "name":"pixie",
+            "age":4,
+            "gender":"female",
+            "location":"bayan",
+            "image" : "/images/pet-02.png"
+        },
+        {
+            "name":"fluff",
+            "age":6,
+            "gender":"male",
+            "location":"bayan",
+            "image" : "/images/pet-03.png"
+        },
+        {
+            "name":"bonino",
+            "age":2,
+            "gender":"female",
+            "location":"bayan",
+            "image" : "/images/pet-04.png"
+        },
+        {
+            "name":"terara",
+            "age":6,
+            "gender":"female",
+            "location":"bayan",
+            "image" : "/images/pet-02.png"
+        }
+        
+    ],
+
 "array4": [
-{"species4": "cat. male. 3 years old. name: pixie. subah-alsalem :Read more->"},
-{"species4": "rabbit. male. 2 years old. name: bonnie. subah-alsalem :Read more->"},
-{"species4": "rabbit. female. 5 months. name: fluffy. subah-lsalem :Read more->"}
+    {
+        "name":"chanona",
+        "age":7,
+        "gender":"female",
+        "location":"subah alsalem",
+        "image" : "/images/pet-02.png"
+    },
+    {
+        "name":"daniel",
+        "age":3,
+        "gender":"male",
+        "location":"subah alsalem",
+        "image" : "/images/pet-03.png"
+    },
+    {
+        "name":"chandler",
+        "age":2,
+        "gender":"male",
+        "location":"subah alsalem",
+        "image" : "/images/pet-04.png"
+    },
+    {
+        "name":"miuna",
+        "age":6,
+        "gender":"female",
+        "location":"subah alsalem",
+        "image" : "/images/pet-01.png"
+    }
 ],
-"array5": [
-{"species5": "bird. male. 5 years old. name: pavarroti. hawali: Read more->"},
-{"species5": "dog. male. 10 years old. name: koki. hawali :Read more->"},
-{"species5": "cat. female. 8 years old. name: cappacino. hawali :Read more->"}
-],
-"details" : [
-{"story": "lila's story : lila was found in a bad shape but now lila is in a better shape " , "image" : "/images/cat.jpg"},
-{"story": "moka's story : moka was found in a bad shape but now moka is in a better shape "  , "image" : "/images/dog.webp"},
-{"story": "moza's story : moza was found in a bad shape but now moza is in a better shape "  , "image" : "/images/parrot.jpg"}
-],
-"details2" : [
-{"story": "saya's story : saya was found in a bad shape but now saya is in a better shape " , "image" : "/images/dog.webp"},
-{"story": "hemo's story : hemo was found in a bad shape but now hemo is in a better shape " , "image" : "/images/cat.jpg" },
-{"story": "neno's story : neno was found in a bad shape but now neno is in a better shape " , "image" : "/images/rabbit.jpg"}
-],
-"details3" : [
-{"story": "salele's story : salele was found in a bad shape but now salele is in a better shape " , "image" : "/images/dog.webp"},
-{"story": "max's story : max was found in a bad shape but now max is in a better shape " , "image" : "/images/dog.webp"},
-{"story": "kasko's story : kasko was found in a bad shape but now kasko is in a better shape " , "image" : "/images/parrot.jpg"}
-],
-"details4" : [
-{"story": "pixie's story : pixie was found in a bad shape but now pixie is in a better shape " , "image" : "/images/cat.jpg"},
-{"story": "bonnie's story : bonnie was found in a bad shape but now bonnie is in a better shape " , "image" : "/images/rabbit.jpg"},
-{"story": "fluffy's story : fluffy was found in a bad shape but now fluffy is in a better shape " , "image" : "/images/rabbit.jpg"}
-],
-"details5" : [
-{"story": "pavarroti's story : pavarroti was found in a bad shape but now pavarroti is in a better shape " , "image" : "/images/bird.jpg"},
-{"story": "koki's story : koki was found in a bad shape but now koki is in a better shape " , "image" : "/images/dog.webp"},
-{"story": "cappacino's story : cappacino was found in a bad shape but now cappacino is in a better shape " , "image" : "/images/cat.jpg"}
-]          
+    "array5": [
+        {
+            "name":"toca",
+            "age":9,
+            "gender":"male",
+            "location":"hawali",
+            "image" : "/images/pet-02.png"
+        },
+        {
+            "name":"bonnie",
+            "age":3,
+            "gender":"male",
+            "location":"hawali",
+            "image" : "/images/pet-03.png"
+        },
+        {
+            "name":"vayora",
+            "age":34,
+            "gender":"female",
+            "location":"hawali",
+            "image" : "/images/pet-02.png"
+        },
+        {
+            "name":"rocco",
+            "age":5,
+            "gender":"male",
+            "location":"hawali",
+            "image" : "/images/pet-01.png"
+        }
+]
+
 }
